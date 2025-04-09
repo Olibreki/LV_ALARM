@@ -37,7 +37,7 @@ This repository contains a face recognition alarm system that integrates Python 
   - Install Python 3.7 or higher.
   - Install required Python packages:
     ```bash
-    pip install opencv-python flask picamera2 mtcnn torch torchvision onnx onnx2pytorch
+    pip install opencv-python flask picamera2 mtcnn torch torchvision onnx onnx2pytorch insightface
     ```
 
 - **C**:
@@ -95,14 +95,11 @@ This repository contains a face recognition alarm system that integrates Python 
 - **Telegram Alerts Not Sent**: Verify the bot token, chat ID, and internet connectivity.
 - **Face Detection Issues**: Ensure the camera is properly configured and the Haar cascade/MTCNN models are working.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - [ONNX Runtime](https://onnxruntime.ai/)
 - [MTCNN](https://github.com/ipazc/mtcnn)
+- [InsightFace](https://github.com/deepinsight/insightface)
 - [Telegram Bot API](https://core.telegram.org/bots/api)
 - [libmicrohttpd](https://www.gnu.org/software/libmicrohttpd/)
 - [stb_image](https://github.com/nothings/stb)
